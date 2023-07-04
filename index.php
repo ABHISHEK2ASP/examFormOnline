@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
     <?php
      header('Location: components/userLogin/stdLogin.php')
     ?> 
