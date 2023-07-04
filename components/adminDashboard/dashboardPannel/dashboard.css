@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    width: auto;
+    height: auto;
+}
+.container1{
+    width: 95%;
+    display: flex;
+    height: auto;
+    margin:  40 auto;
+    padding: 2%;    
+}
+.charts{
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+.cards{
+    width: 32%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    background-color: rgb(235, 233, 233);
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px #747474;
+
+}
+.head1{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+.head2{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.text{
+    margin: auto;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25;
+}
+.img{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+table{
+    width: 100%;
+    table-layout:fixed;
+    min-width: 1000px;
+  }
+  .table_header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    background-color: rgba(240, 240,240);
+  }
+  .table_header p {
+    color: #000000;
+  }
+  button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  td button:nth-child(1){
+    background-color: #0298cf;
+  }
+
+  .table_section{
+    height: 650px;
+    overflow: auto;
+    background-color: white;
+  }
+  
+  thead th{
+    position: sticky;
+    top: 0;
+    background-color: #f6f9fc;
+    color: #8493a5;
+    font-size: 15px;
+  }
+  th,td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+   color: #000000;
+  }
+  tr:hover td{
+    color: #0298cf;
+    cursor: pointer;
+    background-color: #f6f9fc;
+  }
+  .btnimg{
+    width: 20px;
+    height: 20px;
+  }
+/* .cards1{
+    width: 30%;
+    height: auto;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+} */

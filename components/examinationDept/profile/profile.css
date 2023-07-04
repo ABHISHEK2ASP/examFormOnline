@@ -1,0 +1,116 @@
+body{
+    background-color: #ffff;
+    height: auto;
+    width: auto;
+}
+.container{
+    margin: 20 auto;
+    width: 60%;
+    height: auto;
+  }
+.displayinfo{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+img{
+  width: 150px;
+  margin: auto;
+  border-radius: 30px;
+  height: 180px;
+}
+.row{
+    margin: 30 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    background-color: 	#222831;
+    border: 2px solid 	#E8E8E8;
+    box-shadow: 10px 10px 20px #C0C0C0;
+    border-radius: 10px;
+  }
+  .box1{
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .box2{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;    
+  }
+  .feilds{
+    width: 35%;
+    height: auto;
+    margin: 10 auto;
+  }
+  .feilds1{
+    width: 100%;
+    height: auto;
+    margin: 10 auto;
+  }
+  img{
+    width: 150px;
+    margin: auto;
+    border-radius: 30px;
+    height: 150px;
+  }
+  .labeltxt{
+    font-family: Latha;
+    font-size: 15px;
+    font-weight: 550;
+    color:#00ADB5;
+  }
+  .heading{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .h4txt{
+    margin-top: 10px;
+    color: 	#EEEEEE;
+    font-family: Luminari;
+    font-size: 15px;
+  }  
+
+
+  .passform{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: 550;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffff;
+    box-shadow: 10px 20px 80px 5px rgba(255, 255, 255, 0.15);
+  }
+  .btn{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #ffff;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: 550;
+    background: #00ADB5;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 5px;
+
+  }

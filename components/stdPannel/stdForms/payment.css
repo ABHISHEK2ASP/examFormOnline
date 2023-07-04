@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#000000;
+}
+.formbox{
+    width: 30%;
+    margin: 20 auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 15px 15px 3px #ccc;
+    padding: 20px;
+}
+.form-group{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+
+}
+
+.inputtxt{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    color: #666;
+    background-color: #ffff;
+  }
+input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    color: #FFFF;
+    background-color: #0d6efd;
+  }
+
+   span.details{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;   
+  }
+  .button{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: auto;
+    transition: all 0.3s ease;
+    
+  }
+
+
+  .radio-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .radio-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .radio-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .radio-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .radio-button input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-checkmark {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border: 2px solid #333;
+    border-radius: 50%;
+  }
+  
+  .radio-checkmark:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .radio-button input[type="radio"]:checked ~ .radio-checkmark:before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .radio-label {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+  
